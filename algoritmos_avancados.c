@@ -159,7 +159,6 @@ void conectarSalas(Sala *raiz)
     int total = sizeof(comodos) / sizeof(comodos[0]);
     Sala* atual = raiz;
     Fila f;
-    depth += 1;
     iniciarFila(&f);
     enqueue(&f, raiz);
     for(int i = 0; i < total; i++)
